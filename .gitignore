@@ -1,0 +1,21 @@
+# Dataset — InSDN is distributed by UNB CIC, do not redistribute
+data/*
+!data/.gitkeep
+
+# Trained models and generated artefacts
+models/
+results/
+logs/
+*.pkl
+*.pt
+*.npy
+*.log
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
